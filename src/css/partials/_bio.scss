@@ -1,0 +1,9 @@
+#bio{
+    font-family: $primary-font-family;
+    color: $primary-font-color;
+    text-align: center;
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    align-content: flex-end;
+}

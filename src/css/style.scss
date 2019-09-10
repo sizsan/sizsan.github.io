@@ -1,0 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "partials/social";
+@import "partials/bio";
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,$primary-bgcolor , $secondary-bgcolor); 
+}
+#content {
+  width: 300px;
+  height: 600px;
+  display: grid;
+  grid-row: 2fr 1fr;
+}
