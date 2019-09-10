@@ -56,23 +56,10 @@
 }
 
 #content {
-  height: 80vh;
+  height: 60vh;
   display: -ms-grid;
   display: grid;
   grid-row: 2fr 1fr;
-}
-
-#navButton {
-  width: 35px;
-  height: 33px;
-}
-
-#navButton .menuBar {
-  width: 35px;
-  height: 5px;
-  background-color: #64a0e6;
-  border-radius: 10px;
-  margin: 6px 0;
 }
 
 #main {
