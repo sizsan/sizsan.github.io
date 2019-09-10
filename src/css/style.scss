@@ -4,6 +4,9 @@
 @import "helpers/mixins";
 @import "partials/social";
 @import "partials/bio";
+@import "partials/content";
+@import "partials/navbar";
+
 #main {
     width: 100vw;
     height: 100vh;
@@ -13,9 +16,4 @@
     justify-content: space-around;
     background-image: linear-gradient(to right,$primary-bgcolor , $secondary-bgcolor); 
 }
-#content {
-  width: 300px;
-  height: 600px;
-  display: grid;
-  grid-row: 2fr 1fr;
-}
+

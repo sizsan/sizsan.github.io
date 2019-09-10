@@ -55,6 +55,26 @@
       align-content: flex-end;
 }
 
+#content {
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 2fr 1fr;
+}
+
+#navButton {
+  width: 35px;
+  height: 33px;
+}
+
+#navButton .menuBar {
+  width: 35px;
+  height: 5px;
+  background-color: #64a0e6;
+  border-radius: 10px;
+  margin: 6px 0;
+}
+
 #main {
   width: 100vw;
   height: 100vh;
@@ -72,13 +92,5 @@
       justify-content: space-around;
   background-image: -webkit-gradient(linear, left top, right top, from(#0a0a28), to(#141446));
   background-image: linear-gradient(to right, #0a0a28, #141446);
-}
-
-#content {
-  width: 300px;
-  height: 600px;
-  display: -ms-grid;
-  display: grid;
-  grid-row: 2fr 1fr;
 }
 /*# sourceMappingURL=style.css.map */
