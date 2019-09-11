@@ -27,18 +27,23 @@
       justify-content: space-around;
 }
 
+#socialMedia a:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
 #socialMedia a:last-child {
   height: 160px;
   width: 100%;
 }
 
-#socialMedia img {
-  height: 70%;
+#socialMedia a:last-child:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
-#socialMedia img:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+#socialMedia img {
+  height: 70%;
 }
 
 #bio {

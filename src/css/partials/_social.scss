@@ -11,15 +11,18 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
+      &:hover {
+        transform: scale(1.25)
+            }
     }
     a:last-child{
         height: 160px;
         width: 100%;
+        &:hover {
+            transform: scale(1.15)
+                }
     }
     img {
         height: 70%;
-        &:hover {
-            transform: scale(1.25)
-                }
         }
 }   
