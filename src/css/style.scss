@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import "helpers/variables";
 @import "helpers/mixins";
-@import "partials/main";
- 
+@import "partials/social"; 
+@import "partials/homecontent"; 
+@import "partials/hint";
 
 .page {
     width: 100%;
@@ -24,6 +25,8 @@
     align-items: center;
     background-image: linear-gradient(to right, $primary-font-color , $secondary-font-color); 
 }
+
+
 // This is a Placeholder for when a section of this page is incomplete.
 // #in-Progress{
 //     width: 100%;

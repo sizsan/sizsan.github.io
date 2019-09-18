@@ -1,0 +1,29 @@
+#homecontent {
+    font-family: $primary-font-family;
+    height: 60vh;
+    display: grid;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    grid-row: 2fr 1fr;
+    img{
+        height: 10vh;
+        margin: 5vh;
+    }
+}
+
+#bio{
+    color: $primary-font-color;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: flex-end;
+    a{
+        text-decoration: none;
+        color: $primary-font-color;
+    }
+    a:hover{
+        text-decoration:underline; 
+    }
+}
