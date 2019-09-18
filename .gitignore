@@ -1,0 +1,2 @@
+# Ignores Config file in an attmept to keep licence key private
+src/scripts/config.js
