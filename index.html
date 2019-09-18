@@ -10,6 +10,7 @@
     <title>Jack Gronow</title>
 </head>
 <body>
+<div id="fullpage">
   <div class="section active">
   <section id="main">
     <section id="content">
@@ -42,8 +43,26 @@
       <i class="arrow down"></i>
     </section>
   </section>
+  </div>
+  <div class="section">
+      <section id="work">
+        <section id="content">
+        </section> 
+        <section id="hint"> 
+          <i class="arrow down"></i>
+          <i class="arrow down"></i>
+        </section>
+      </section>
+  </div>
 </div>
 <!-- This is a Placeholder for when a section of this page is incomplete.-->
   <!-- <div id="in-Progress"><strong></br>Under Construction</br></strong></div> -->
+  <script type="text/javascript" src="/src/scripts/config.js"></script>
+  <script type="text/javascript" src="/src/scripts/fullpage.js"></script>
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      licenseKey: config.licenseKey
+    });
+  </script>
 </body>				
 </html>
