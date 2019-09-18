@@ -47,8 +47,7 @@
 }
 
 #bio {
-  font-family: "Titillium Web", sans-serif;
-  color: #64a0e6;
+  color: #649bbe;
   text-align: center;
   display: -ms-grid;
   display: grid;
@@ -61,6 +60,7 @@
 }
 
 #content {
+  font-family: "Titillium Web", sans-serif;
   height: 60vh;
   display: -ms-grid;
   display: grid;
@@ -88,7 +88,7 @@
 }
 
 #hint .down {
-  border: solid #64a0e6;
+  border: solid #649bbe;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -96,7 +96,7 @@
   -webkit-transform: rotate(45deg);
 }
 
-#main {
+.page {
   width: 100%;
   height: 100vh;
   overflow-x: none;
@@ -110,7 +110,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0a0a28), to(#141446));
-  background-image: linear-gradient(to right, #0a0a28, #141446);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0a0a28), to(#141447));
+  background-image: linear-gradient(to right, #0a0a28, #141447);
+}
+
+#skills {
+  width: 100%;
+  height: 100vh;
+  overflow-x: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#649bbe), to(#78aac8));
+  background-image: linear-gradient(to right, #649bbe, #78aac8);
 }
 /*# sourceMappingURL=style.css.map */

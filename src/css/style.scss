@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import "helpers/variables";
 @import "helpers/mixins";
-@import "partials/social";
-@import "partials/bio";
-@import "partials/content";
-@import "partials/hint";
+@import "partials/main";
+ 
 
-#main {
+.page {
     width: 100%;
     height: 100vh;
     overflow-x: none;
@@ -15,6 +13,16 @@
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to right,$primary-bgcolor , $secondary-bgcolor); 
+}
+
+#skills {
+    width: 100%;
+    height: 100vh; 
+    overflow-x: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, $primary-font-color , $secondary-font-color); 
 }
 // This is a Placeholder for when a section of this page is incomplete.
 // #in-Progress{
