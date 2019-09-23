@@ -3,9 +3,10 @@
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "partials/social"; 
-@import "partials/homecontent"; 
+@import "partials/content"; 
 @import "partials/hint";
-@import "partials/fullpage";
+// Provided Css from the Full page function
+// @import "partials/fullpage";
 
 .page {
     width: 100%;
@@ -22,7 +23,7 @@
     height: 100vh; 
     overflow-x: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-image: linear-gradient(to right, $primary-font-color , $secondary-font-color); 
 }
